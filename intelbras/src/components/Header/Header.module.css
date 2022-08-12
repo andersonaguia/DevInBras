@@ -1,0 +1,30 @@
+.header{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 60px;
+    background-color: var(--brand-green);
+}
+
+.ul{
+    display: flex;
+    list-style-type: none;
+    gap: 26px;
+}
+
+.button{
+    width: 79px;
+    height: 39px;
+    border-radius: 40px;
+    padding: 10px 24px;
+    background-color: var(--brand-green);
+    color: var(--white);
+    border: 1px solid var(--white);
+    text-transform: uppercase;
+}
+
+.h1{
+    color: var(--white);
+}
